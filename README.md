@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isfinitef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-assert-is-finitef/tags). For example,
+
+```javascript
 import isfinitef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@v0.1.1-deno/mod.js';
 ```
 
@@ -76,7 +81,7 @@ bool = isfinitef( NaN );
 ```javascript
 import PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-pinf@deno/mod.js';
 import NINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-ninf@deno/mod.js';
-import isfinitef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@v0.1.1-deno/mod.js';
+import isfinitef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@deno/mod.js';
 
 var bool = isfinitef( 5.0 );
 // returns true
