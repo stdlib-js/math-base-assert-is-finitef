@@ -35,30 +35,38 @@ limitations under the License.
 
 > Test if a single-precision floating-point numeric value is finite.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-assert-is-finitef
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var isfinitef = require( '@stdlib/math-base-assert-is-finitef' );
+isfinitef = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var isfinitef = require( 'path/to/vendor/umd/math-base-assert-is-finitef/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.isfinitef;
+})();
+</script>
 ```
 
 #### isfinitef( x )
@@ -89,10 +97,15 @@ bool = isfinitef( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var PINF = require( '@stdlib/constants-float32-pinf' );
-var NINF = require( '@stdlib/constants-float32-ninf' );
-var isfinitef = require( '@stdlib/math-base-assert-is-finitef' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-pinf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-ninf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var bool = isfinitef( 5.0 );
 // returns true
@@ -108,6 +121,11 @@ bool = isfinitef( NINF );
 
 bool = isfinitef( NaN );
 // returns false
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -199,7 +217,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/assert/is-infinitef]: https://github.com/stdlib-js/math-base-assert-is-infinitef
+[@stdlib/math/base/assert/is-infinitef]: https://github.com/stdlib-js/math-base-assert-is-infinitef/tree/umd
 
 <!-- </related-links> -->
 
