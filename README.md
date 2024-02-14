@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isfinitef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@deno/mod.js';
+import isfinitef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@v0.2.0-deno/mod.js';
 ```
 
 #### isfinitef( x )
@@ -76,7 +76,7 @@ bool = isfinitef( NaN );
 ```javascript
 import PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-pinf@deno/mod.js';
 import NINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-ninf@deno/mod.js';
-import isfinitef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@deno/mod.js';
+import isfinitef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-finitef@v0.2.0-deno/mod.js';
 
 var bool = isfinitef( 5.0 );
 // returns true
