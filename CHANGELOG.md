@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-28)
+## Unreleased (2026-01-30)
 
 <section class="commits">
 
@@ -12,7 +12,8 @@
 
 <details>
 
--   [`8356484`](https://github.com/stdlib-js/stdlib/commit/835648432cd29ea018a904c15933009987514d44) - **bench:** update random value generation [(#6679)](https://github.com/stdlib-js/stdlib/pull/6679) _(by Harsh)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`8356484`](https://github.com/stdlib-js/stdlib/commit/835648432cd29ea018a904c15933009987514d44) - **bench:** update random value generation [(#6679)](https://github.com/stdlib-js/stdlib/pull/6679) _(by Harsh Yadav)_
 -   [`60983a6`](https://github.com/stdlib-js/stdlib/commit/60983a6b6946c48a3e38baeef28d19d76cbdb9c9) - **refactor:** update `math/base/assert/is-finitef` native addon from C++ to C [(#4618)](https://github.com/stdlib-js/stdlib/pull/4618) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
@@ -27,11 +28,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Dhruv Arvind Singh
--   Harsh
+-   Harsh Yadav
+-   Philipp Burckhardt
 
 </section>
 
