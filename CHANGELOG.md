@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-30)
+## Unreleased (2026-02-07)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`231d457`](https://github.com/stdlib-js/stdlib/commit/231d45774d3ba684ce107e85fc7df41a679845e3) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10072)](https://github.com/stdlib-js/stdlib/pull/10072) _(by Lokesh Ranjan)_
 -   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`8356484`](https://github.com/stdlib-js/stdlib/commit/835648432cd29ea018a904c15933009987514d44) - **bench:** update random value generation [(#6679)](https://github.com/stdlib-js/stdlib/pull/6679) _(by Harsh Yadav)_
 -   [`60983a6`](https://github.com/stdlib-js/stdlib/commit/60983a6b6946c48a3e38baeef28d19d76cbdb9c9) - **refactor:** update `math/base/assert/is-finitef` native addon from C++ to C [(#4618)](https://github.com/stdlib-js/stdlib/pull/4618) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot)_
@@ -28,11 +29,12 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Dhruv Arvind Singh
 -   Harsh Yadav
+-   Lokesh Ranjan
 -   Philipp Burckhardt
 
 </section>
