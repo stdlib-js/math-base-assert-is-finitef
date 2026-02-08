@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-assert-is-finitef",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test if a single-precision floating-point numeric value is finite.",
   "license": "Apache-2.0",
   "author": {
@@ -46,20 +46,20 @@
     "@stdlib/napi-argv-float": "^0.2.3",
     "@stdlib/napi-create-int32": "^0.0.3",
     "@stdlib/napi-export": "^0.3.1",
-    "@stdlib/utils-library-manifest": "^0.2.3"
+    "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/boolean-ctor": "^0.2.3",
     "@stdlib/constants-float32-max": "^0.2.3",
     "@stdlib/constants-float32-smallest-subnormal": "^0.2.3",
     "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/string-format": "^0.2.3",
-    "@stdlib/utils-try-require": "^0.2.2",
+    "@stdlib/utils-try-require": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
